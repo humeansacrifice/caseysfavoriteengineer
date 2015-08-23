@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Casey's Favorite Enginerd.</title>
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,700,800,400" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/responsive.css" rel="stylesheet" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62767346-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+      var nerd = ["Superkyle", 
+      "Jarsh", 
+      "Pickle",
+      "Will (Gregg)(Porkrind Man)",
+      "ET",
+      "Tall Harry Potter", 
+      "Natalie", 
+      "Lemon",
+      "Bl-ake",
+      "TacoTwin", 
+      "CatBro", 
+      "Sock Puppet Bro", 
+      "Wow, there should be a ban on my buying domain names drunk", 
+      "DVK", 
+      "Hunter", 
+      "Nick Hunt", 
+      "Joble",
+      "Wishee", 
+      "TRoy", 
+      "Mize", 
+      "Parker", 
+      "MEllis", 
+      "Alex", 
+      "StevieP", 
+      "Smiley", 
+      "ROBRIGHTER", 
+      "Neener", 
+      "Mei Mei", 
+      "Other Cat Bro who is also into Tacos and shit", 
+      "JUMANJI",
+      "Dartz (Blartz)" ];      
+console.log("Yo, since you're creeping on my code here, feel free to make fun of me here: https://github.com/humeansacrifice/caseys-favorite-engineer")	    
+</script>
+
+</head>
+<body>
+
+<h3 id="enginerd"></h3>
+<script>
+//gets day
+(function getday() {
+    var d = new Date();
+    day = d.getDay()
+    
+}()); 
+   
+(function myfavoriteengineer() {
+if(day==1){ 
+//if its monday, favorite engineer is Oliver
+	fav= "Oliver";
+	
+} else if (day==5){
+	fav = "Hunter";
+
+} else { 
+//if its not monday, gets different engineer from the nerd list
+       fav = nerd[Math.floor(Math.random() * nerd.length)];
+}
+document.getElementById("enginerd").innerHTML =
+        fav;
+    }());
+ </script>
+ <div class="span7 text-center"> 
+  <a href="http://www.caseysfavoriteengineer.com/projects.html" target="_blank" class="btn btn-info" role="button" align= "center">Click here for more of my stupid projects</a></div>
+</body>
+<footer></footer>
+</html>
