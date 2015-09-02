@@ -23,38 +23,38 @@
 </script>
 
 <script>
-      var nerd = ["Superkyle", 
-      "Jarsh", 
+      var nerd = ["Superkyle",
+      "Jarsh",
       "Pickle",
       "Will (Gregg)(Porkrind Man)",
       "ET",
-      "Tall Harry Potter", 
-      "Natalie", 
+      "Tall Harry Potter",
+      "Natalie",
       "Lemon",
       "Bl-ake",
-      "TacoTwin", 
-      "CatBro", 
-      "Sock Puppet Bro", 
-      "Wow, there should be a ban on my buying domain names drunk", 
-      "DVK", 
-      "Hunter", 
-      "Nick Hunt", 
+      "TacoTwin",
+      "CatBro",
+      "Sock Puppet Bro",
+      "Wow, there should be a ban on my buying domain names drunk",
+      "DVK",
+      "Hunter",
+      "Nick Hunt",
       "Joble",
-      "Wishee", 
-      "TRoy", 
-      "Mize", 
-      "Parker", 
-      "MEllis", 
-      "Alex", 
-      "StevieP", 
-      "Smiley", 
-      "ROBRIGHTER", 
-      "Neener", 
-      "Mei Mei", 
-      "Other Cat Bro who is also into Tacos and shit", 
+      "Wishee",
+      "TRoy",
+      "Mize",
+      "Parker",
+      "MEllis",
+      "Alex",
+      "StevieP",
+      "Smiley",
+      "ROBRIGHTER",
+      "Neener",
+      "Mei Mei",
+      "Other Cat Bro who is also into Tacos and shit",
       "JUMANJI",
-      "Dartz (Blartz)" ];      
-console.log("Yo, since you're creeping on my code here, feel free to make fun of me here: https://github.com/humeansacrifice/caseys-favorite-engineer")	    
+      "Dartz (Blartz)" ];
+console.log("Yo, since you're creeping on my code here, feel free to make fun of me here: https://github.com/humeansacrifice/caseys-favorite-engineer")
 </script>
 
 </head>
@@ -66,18 +66,18 @@ console.log("Yo, since you're creeping on my code here, feel free to make fun of
 (function getday() {
     var d = new Date();
     day = d.getDay()
-    
-}()); 
-   
+
+}());
+
 (function myfavoriteengineer() {
-if(day==1){ 
+if(day==1){
 //if its monday, favorite engineer is Oliver
 	fav= "Oliver";
-	
+
 } else if (day==5){
 	fav = "Hunter";
 
-} else { 
+} else {
 //if its not monday, gets different engineer from the nerd list
        fav = nerd[Math.floor(Math.random() * nerd.length)];
 }
@@ -85,8 +85,8 @@ document.getElementById("enginerd").innerHTML =
         fav;
     }());
  </script>
- <div class="span7 text-center"> 
-  <a href="http://www.caseysfavoriteengineer.com/projects.html" target="_blank" class="btn btn-info" role="button" align= "center">Click here for more of my stupid projects</a></div>
+ <div class="span7 text-center">
+  <a target="_blank" class="btn btn-info" role="button" type="Submit" value="Refresh" onClick="history.go(0)" align= "center">Another Favorite</a></div>
 </body>
 <footer></footer>
 </html>
